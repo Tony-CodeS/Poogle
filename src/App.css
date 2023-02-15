@@ -8,11 +8,21 @@ html,body{
   overflow-x: hidden;
 }
 body{
-  background-image: url('./assets/bghero.jpg');
+  /* background-image: url('./assets/bghero.jpg'); */
+  background: rgb(110, 105, 105);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Montserrat';
 }
 
+.cc{
+  font-size: 200px;
+  color: bisque;
+}
+
+a{
+  text-decoration: none;
+  /* color:white */
+}
 
 

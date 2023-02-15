@@ -5,7 +5,7 @@ import {FaCoins} from 'react-icons/fa'
 
 function tokenomics() {
   return (
-    <div className='maintokenomicsdiv'>
+    <div className='maintokenomicsdiv' id='Tokenomics'>
       <div className='tokendiv'><FaCoins className='tokenIcon'/></div>
       <div>
         <h1 className='token-title'> TOKENOMICS</h1>
@@ -17,7 +17,7 @@ function tokenomics() {
 
         </div>
 
-        <div className='tokenomics'>
+        <div className='tokenomics' id='tokenomics'>
           <h2 className='h2'> Liquidity Accumulation</h2>
             <p className='figures'>2%</p>
             <p>Fee on sell trades, added to the liquidity pool by smart contract locked forever.</p>

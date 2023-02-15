@@ -3,7 +3,7 @@ import './home.css'
 
 function home() {
   return (
-    <div className='mainhero'>
+    <div className='mainhero' id='Poogle'>
         <div className='transbox'>
             <div className='image-hero'>
 
@@ -16,7 +16,7 @@ function home() {
 
                      <div className='button-div'>
                      <button className='downloadbtn'>  Whitepaper</button>
-                     <button className='communitybtn'> Community</button>
+                     <button className='communitybtn'> <a href='/'> Community</a> </button>
                      </div>
             </div>
             

@@ -41,17 +41,17 @@ function footer() {
          <div className='community'>
             <h2> Community</h2>
             <ul>
-                <li> Telegram</li>
-                <li> Discord</li>
+                <li><a href='/'> Telegram</a></li>
+                <li> <a href='/'> Discord</a></li>
             </ul>
          </div>
 
          <div className='connect'>
             <h2> Connect</h2>
             <ul>
-                <li>Twitter</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
+                <li><a href='/'>Twitter</a></li>
+                <li><a href='/'>Facebook</a></li>
+                <li><a href='/'>Instagram</a></li>
                 
             </ul>
          </div>

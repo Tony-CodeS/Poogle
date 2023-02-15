@@ -46,13 +46,13 @@
 
 .secondtokenomics{
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-around ;
     flex-wrap: wrap;
   
 }
 
 .secondtokenomics-child{
-    width: 600px;
+    width: 500px;
     height: 100px;
     background: red;
     margin: 10px;
@@ -73,6 +73,79 @@
 }
 
 .maintokenomicsdiv{
-    background: transparent;
+    background-color: rgb(16, 197, 128);
     margin: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width:420px){
+    .token-title{
+        font-size: 40px;
+    }
+
+    .tokenomics{
+        width: 100%;
+        height: 300px;
+        background: rgb(231, 225, 225);
+        margin: 0;
+        margin-bottom: 20px;
+        /* margin-left: 270px; */
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 15pt;
+    }
+
+    #tokenomics{
+        width: 100%;
+        height: 350px;
+        background: rgb(231, 225, 225);
+        margin: 0;
+        margin-bottom: 20px;
+        /* margin-left: 270px; */
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 15pt;
+    }
+
+    .secondtokenomics-child{
+        width: 100%;
+        height: 80px;
+        background: red;
+        margin: 10px;
+        text-align: center;
+        font-size: 15pt;
+        /* z-index: -1; */
+    }
+}
+
+@media screen and (max-width:300px) {
+    #tokenomics{
+        height: 400px;
+    }
+
+    .figures{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .h2{
+        font-size: 30px;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .token-title{
+        font-size: 30px;
+    }
+
+    .secondtokenomics-child{
+        width: 100%;
+        height: 80px;
+        background: red;
+        margin: 10px;
+        text-align: center;
+        font-size: 12pt;
+        /* z-index: -1; */
+    }
 }

@@ -149,21 +149,42 @@
         height: 500px;
     
       }
+
+      .button-div{
+        margin-top: 30px;
+      }
+
+      .image-hero{
+        width:400px;
+        height: 400px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:600px) {
     .hero-text-div{
-        width:90%;
-        height: 700px;
+        width:100%;
+        height: 650px;
       }
-      .mainhero{
+      /* .mainhero{
         background-image: url('../../assets/meme-coins.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
-       
-    
-    }
+      
+      
+       .image-hero{
+        width:400px;
+        height: 400px;
+    }} */
+
+    .image-hero{
+      width:400px;
+      height: 400px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width:500px) {
@@ -209,4 +230,28 @@
       .transbox {
         font-size: 15pt;
       }
+}
+
+@media screen and (max-width:300px) {
+  .downloadbtn{
+    width: 150px;
+    height: 70px;
+    
+  }
+
+  .communitybtn{
+    width: 150px;
+    height: 70px;
+  
+  }
+
+  .hero-text-div{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 10px;
+    /* background: yellowgreen; */
+ 
+
+  }
 }
