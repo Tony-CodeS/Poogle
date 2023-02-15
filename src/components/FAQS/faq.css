@@ -1,0 +1,11 @@
+.accordion{
+    width: 50%;
+    margin: auto;
+    font-size: 25pt;
+    background: red;
+}
+
+.accordion-item{
+    margin: 30px;
+    background: red;
+}
