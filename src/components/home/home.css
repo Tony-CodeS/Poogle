@@ -13,7 +13,7 @@
 .transbox {
   
    
-    background: transparent;
+    /* background: transparent; */
     color: whitesmoke;
     font-size: 20pt;
     display: flex;
@@ -28,7 +28,7 @@
   }
 
   .image-hero{
-    background: url('../../assets/pitbullhead.png');
+    background: url('../../assets/Poogle.png');
     width:500px;
     height: 500px;
     background-repeat: no-repeat;
@@ -39,10 +39,10 @@
   .hero-text-div{
     width:50%;
     height: 500px;
-    background: rgb(51, 49, 49);
+    /* background: rgb(51, 49, 49); */
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 0px 2px 0px 2px red;
+    box-shadow: 0px 2px 0px 2px #4f6d6c;
     filter: blur(40%);
 
   }
@@ -60,6 +60,8 @@
     height: 70px;
     border: none;
     border-radius: 10px;
+    background: #4f6d6c;
+    color: white;
   }
 
   .communitybtn{
@@ -68,9 +70,13 @@
     border: none;
     border-radius: 10px;
     margin-left: 20px;
-    border: 2px solid #ffff;
+    border: 2px solid #4f6d6c;
     background: transparent;
-    color: #ffff;
+    color:  #4f6d6c;
+  }
+
+  #commLink{
+    color:  #4f6d6c;
   }
 .variant{
   /* background-color: rgb(23, 22, 22); */
@@ -85,7 +91,8 @@
 .variantImg{
   width: 200px;
   height: 200px;
-  background: url('../../assets/pitbullhead.png');
+  background-image: url('../../assets/Poogle.png');
+  background-size: contain;
   border-radius: 50%;
 }
   @media screen and (max-width:1280px){
@@ -95,7 +102,7 @@
         background: rgb(51, 49, 49);
         padding: 20px;
         border-radius: 30px;
-        box-shadow: 0px 2px 0px 2px red;
+        box-shadow: 0px 2px 0px 2px  #4f6d6c;
         filter: blur(40%);
     
       }
@@ -108,7 +115,7 @@
         background: rgb(51, 49, 49);
         padding: 20px;
         border-radius: 30px;
-        box-shadow: 0px 2px 0px 2px red;
+        /* box-shadow: 0px 2px 0px 2px red; */
         filter: blur(40%);
     
       }

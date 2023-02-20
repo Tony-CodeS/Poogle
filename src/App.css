@@ -8,8 +8,7 @@ html,body{
   overflow-x: hidden;
 }
 body{
-  /* background-image: url('./assets/bghero.jpg'); */
-  background: rgb(110, 105, 105);
+  background-image: url('./assets/Pooglr\ bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Montserrat';

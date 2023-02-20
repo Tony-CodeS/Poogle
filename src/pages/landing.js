@@ -13,10 +13,8 @@ function landing() {
         <Home/>
         <Tokenomics/>
         <Gettingstarted/>
-        {/* <Faq/> */}
+        <Faq/>
         <Footer/>
-       
-
     </div>
   )
 }

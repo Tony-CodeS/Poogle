@@ -10,6 +10,7 @@
     height: 300px;
     padding: 20px;
     margin: 20px;
+    background-color: #4f6d6c;
 }
 
 .card-heading{
@@ -30,6 +31,7 @@
     justify-content: space-around;
     margin-top: 30px;
     flex-wrap: wrap;
+    color: white;
                    
 }
 
@@ -41,12 +43,11 @@
 
 .main-card-div{
     margin-bottom: 30px;
-    /* background: red; */
     padding: 30px;
+    color: white;
 }
 
 .started{
-    /* background: yellow; */
     margin-left: 30px;
     padding-left: 20px;
 }

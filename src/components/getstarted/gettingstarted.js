@@ -5,7 +5,7 @@ function gettingstarted() {
   return ( 
         <div className='main-card-div'>
            <div className='started'> 
-           <h1> Getting Started</h1> 
+           <h1 className='h1'> Getting Started</h1> 
            </div>
 
             <div className='card-div'>

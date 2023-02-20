@@ -16,7 +16,7 @@ function home() {
 
                      <div className='button-div'>
                      <button className='downloadbtn'>  Whitepaper</button>
-                     <button className='communitybtn'> <a href='/'> Community</a> </button>
+                     <button className='communitybtn'> <a href='/' id='commLink'> Community</a> </button>
                      </div>
             </div>
             
