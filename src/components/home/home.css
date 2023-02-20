@@ -1,8 +1,8 @@
 .mainhero{
-    /* background-image: url('../../assets/meme-coins.jpg'); */
+    background-image: url('../../assets/poogle\ \(2\).png');
     background-repeat: no-repeat;
     /* background: red; */
-    background-size: cover;
+    background-size: contain;
     height: 100%;
     padding: 20px;
     /* width: 90%; */

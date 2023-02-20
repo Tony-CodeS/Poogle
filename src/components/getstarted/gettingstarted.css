@@ -45,6 +45,10 @@
     margin-bottom: 30px;
     padding: 30px;
     color: white;
+    background: url('../../assets/Pooglr\ bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .started{

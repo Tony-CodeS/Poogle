@@ -8,10 +8,12 @@ html,body{
   overflow-x: hidden;
 }
 body{
-  background-image: url('./assets/Pooglr\ bg.jpg');
+  /* background-image: url('./assets/Pooglr\ bg.jpg'); */
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Montserrat';
+
 }
 
 .cc{
