@@ -1,264 +1,249 @@
-.mainhero{
-    background-image: url('../../assets/poogle\ \(2\).png');
-    background-repeat: no-repeat;
-    /* background: red; */
-    background-size: contain;
-    height: 100%;
-    padding: 20px;
-    /* width: 90%; */
-    margin: 10px;
+.mainHeroDiv{
+  color: White;
+  width: 100%;
+  background-color:#042221 ;
 
+  background-image: url('../../assets/pooglebackground.png');
+  background-size: cover;
+  /* background-repeat: repeat; */
 }
 
-.transbox {
-  
-   
-    /* background: transparent; */
-    color: whitesmoke;
-    font-size: 20pt;
-    display: flex;
-    justify-content: space-around;
-    /* opacity: 0.6; */
-    width: 100%;
-    margin: auto;
-    padding-top: 90px;
-    flex-wrap: wrap;
-    /* margin-top: 30px; */
-    /* height: 1000px; */
-  }
-
-  .image-hero{
-    background: url('../../assets/Poogle.png');
-    width:500px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 50%;
-  }
-
-  .hero-text-div{
-    width:50%;
-    height: 500px;
-    /* background: rgb(51, 49, 49); */
-    padding: 20px;
-    border-radius: 30px;
-    box-shadow: 0px 2px 0px 2px #4f6d6c;
-    filter: blur(40%);
-
-  }
-
-  .p{
-    margin-top: 50px;
-  }
-
-  .button-div{
-    margin-top: 50px;
-  }
-
-  .downloadbtn{
-    width: 200px;
-    height: 70px;
-    border: none;
-    border-radius: 10px;
-    background: #4f6d6c;
-    color: white;
-  }
-
-  .communitybtn{
-    width: 200px;
-    height: 70px;
-    border: none;
-    border-radius: 10px;
-    margin-left: 20px;
-    border: 2px solid #4f6d6c;
-    background: transparent;
-    color:  #4f6d6c;
-  }
-
-  #commLink{
-    color:  #4f6d6c;
-  }
-.variant{
-  /* background-color: rgb(23, 22, 22); */
-  /* height: 400px; */
+.Nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+ 
+}
+.poogle{
+  font-weight: bold;
+  margin-top: 25px;
+  height: 60px;
+}
+#logo{
+  display: flex;
+}
+.SecondMainHeroDiv{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.Links{
+  display: flex;
+}
+
+.directory{
+  display: flex;
+  list-style: none;
+
+}
+
+li{
   margin-top: 40px;
-  flex-wrap: wrap;
-  padding: 10px;
+  margin-right: 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.variantImg{
+.launchBtn{
   width: 200px;
-  height: 200px;
-  background-image: url('../../assets/Poogle.png');
-  background-size: contain;
-  border-radius: 50%;
-}
-  @media screen and (max-width:1280px){
-    .hero-text-div{
-        width:50%;
-        height: 600px;
-        background: rgb(51, 49, 49);
-        padding: 20px;
-        border-radius: 30px;
-        box-shadow: 0px 2px 0px 2px  #4f6d6c;
-        filter: blur(40%);
-    
-      }
-
-  }
-  @media screen and (max-width:1024px){
-    .hero-text-div{
-        width:100%;
-        height: 400px;
-        background: rgb(51, 49, 49);
-        padding: 20px;
-        border-radius: 30px;
-        /* box-shadow: 0px 2px 0px 2px red; */
-        filter: blur(40%);
-    
-      }
-/* .mainhero{
+  height: 50px;
+  border: none;
+  border-radius: 30px;
   margin-top: 30px;
-} */
-      .transbox {
-  
-        /* background-color:transparent;
-        color: whitesmoke;
-        font-size: 20pt;
-        display: flex;
-        justify-content: space-around;
-        /* opacity: 0.6; */
-        /* width: 100%;
-        margin: auto;  */
-        padding-top: 10px;
-        flex-wrap: wrap;
-        /* margin-top: 30px; */
-        /* height: 1000px; */
-      }
-      .image-hero{
-        margin-top: 50px;
-      }
-  }
-  
-
-
-@media screen and (max-width:950px) {
-    .transbox {
-        width: 100%;
-        margin: auto;
-        padding-top: 20px;
-      }
-
-      .hero-text-div{
-        width:90%;
-        height: 500px;
-    
-      }
-
-      .button-div{
-        margin-top: 30px;
-      }
-
-      .image-hero{
-        width:400px;
-        height: 400px;
-        margin-top: 80px;
-        margin-bottom: 20px;
-    }
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: #FFF766;
 }
 
-@media screen and (max-width:600px) {
-    .hero-text-div{
-        width:100%;
-        height: 650px;
-      }
-      /* .mainhero{
-        background-image: url('../../assets/meme-coins.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-      
-      
-       .image-hero{
-        width:400px;
-        height: 400px;
-    }} */
+.heroDes{
+  width: 50%;
+  height: 600px;
+  margin-top: 80px;
+}
 
-    .image-hero{
-      width:400px;
-      height: 400px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+.whitelistBtn{
+  width: 250px;
+  height: 70px;
+  border-radius: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  border: 2px solid #FFF766;
+  margin-top: 20px;
+}
+
+.whitepaperBtn{
+  width: 250px;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: #FFF766;
+  margin: 20px;
+}
+
+.heroH1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.herocolored{
+  font-size: 60px;
+  font-weight: bolder;
+  display: inline;
+  color: #FFF766;
+}
+
+.btns{
+  width: 700px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:1024px){
+  li{
+    margin-top: 35px;
+  }
+
+  .mainHeroDiv{
+
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .heroDes{
+    width: 50%;
+    height: 350px;
+    margin-top: 80px;
   }
 }
 
-@media screen and (max-width:500px) {
-    .image-hero{
-        width:400px;
-        height: 400px;
-    }
+@media screen and (max-width:920px) {
+  .heroDes{
+    width: 70%;
+    height: 350px;
+    margin-top: 80px;
+  }
 
-    .hero-text-div{
-        width:100%;
-        height: 850px;
-        margin: 10px;
-     
+  
+  .mainHeroDiv{
+
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .Nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width:600px){
+  .heroDes{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+  }
+
     
-      }
+  .mainHeroDiv{
 
-      .p{
-        margin-top: 10px;
-      }
- 
-      .communitybtn{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  .whitepaperBtn{
+    width: 200px;
+    height: 50px;
+  }
+
+  .whitelistBtn{
+    width: 200px;
+    height: 50px;
    
-        margin-left: 0;
-        margin-top: 20px;
-        
-      }
+  }
 }
-
-@media screen and (max-width:420px){
-    .hero-text-div{
-        width:100%;
-        height: 100%;
-        margin: 10px;
-        /* background: yellowgreen; */
-     
-    
-      }
-      .image-hero{
-        width:200px;
-        height: 200px;
-     }
-
-      .transbox {
-        font-size: 15pt;
-      }
-}
-
-@media screen and (max-width:300px) {
-  .downloadbtn{
-    width: 150px;
-    height: 70px;
-    
+@media screen and (max-width:450px){
+  .heroDes{
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
   }
 
-  .communitybtn{
-    width: 150px;
-    height: 70px;
+  .heroH1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bolder;
+  }
   
+  .herocolored{
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline;
+    color: #FFF766;
   }
 
-  .hero-text-div{
-    width:100%;
-    height: 100%;
-    margin: 0;
+  .btns{
+    width: 300px;
     margin-top: 10px;
-    /* background: yellowgreen; */
- 
+  }
+  .whitepaperBtn{
+    margin:0;
+    margin-top: 20px;
+  }
+}
 
+@media screen and (max-width:420px) {
+  .heroDes{
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
+    /* background: burlywood; */
+  }
+}
+
+@media screen and (max-width:400px) {
+  .heroDes{
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    /* background: burlywood; */
+  }
+}
+@media screen and (max-width:380px) {
+  .heroDes{
+    width: 100%;
+    height: 430px;
+    margin-top: 80px;
+    /* background: burlywood; */
+  }
+}
+
+@media screen and (max-width:360px) {
+  .heroDes{
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    /* background: burlywood; */
+  }
+}
+
+@media screen and (max-width:300px){
+  .heroH1{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bolder;
+  }
+  
+  .herocolored{
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline;
+    color: #FFF766;
   }
 }
