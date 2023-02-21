@@ -11,10 +11,10 @@ function landing() {
     <div>
         {/* <Nav/> */}
         <Home/>
-        {/* <Tokenomics/>
+        <Tokenomics/>
         <Gettingstarted/>
         <Faq/>
-        <Footer/> */}
+        <Footer/>
     </div>
   )
 }
