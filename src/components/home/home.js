@@ -19,6 +19,8 @@ function home() {
           <button className='launchBtn'> Launch App</button>
         </div>
       </div>
+
+      
     <div className='heroDes'>
     <h1 className='heroH1'> A COMMUNITY DRIVEN <h1 className='herocolored'> AI MEME</h1> TOKEN</h1>
     <div className='btns'>

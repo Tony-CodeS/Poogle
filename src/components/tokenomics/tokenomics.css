@@ -39,8 +39,10 @@
 
 .tokenomicsCard{
     text-align: center;
-    width: 500px;
+    width: 400px;
     margin-top: 30px;
+    /* text-align: center;
+    font-size: 80px; */
 }
 
 .figures{

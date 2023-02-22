@@ -25,4 +25,11 @@
         font-weight: 900;
         margin-top: 20px;
     }
+
+    
+.AboutText{
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 40px;
+}
 }
