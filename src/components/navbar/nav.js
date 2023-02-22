@@ -30,7 +30,7 @@ function nav() {
           <a class="nav-link" href="#Tokenomics" id='poogleLink'>Tokenomics</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/" id='poogleLink'>Audit</a>
+          <a class="nav-link" href="/" id='poogleLink'>COMMUNITY</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/" id='poogleLink'>FAQs</a>
