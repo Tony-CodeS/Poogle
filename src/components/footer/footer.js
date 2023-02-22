@@ -6,14 +6,16 @@ function footer() {
     <div>
         <div className='footer'>
             <div className='company'>
-                <h1>Company</h1>
+                <h1 className='commTitle'>Company</h1>
                 <p>
-                Poogle l is a AI meme token that had its ownership renounced and given to the community upon its creation.
-                Created on March 17, 2021 on the Binance Smart Chain network with contract renounced and Liquidity burnt in its creation, 
+                Poogle  is an AI meme token that had its ownership renounced and given to the community upon its creation.
+                Created on the Binance Smart Chain network with contract renounced and Liquidity burnt in its creation, 
                 Poogle has grown into a fully functional, decentralized, 100% community-driven project.
                 </p>
-                <div className='disclaimer'>
-            <h1> Legal Disclaimer</h1>
+          
+            </div>
+            <div className='disclaimer'>
+            <h1 className='commTitle'> Legal Disclaimer</h1>
          <p>
      None of the information on this website should be construed as providing legal or financial advice. 
      Please note there are always risks associated with smart contracts. Please use at your own risk. 
@@ -24,37 +26,28 @@ function footer() {
     Do conduct your own due diligence and consult your financial advisor before making any investment decision
             </p>
          </div>
-            </div>
-         {/* <div className='disclaimer'>
-            <h1> Legal Disclaimer</h1>
-         <p>
-     None of the information on this website should be construed as providing legal or financial advice. 
-     Please note there are always risks associated with smart contracts. Please use at your own risk. 
-     PIT Token is not a registered broker, analyst or investment advisor. If you have purchased PIT,
-     you agree that you are not purchasing a security or investment.
-     The PIT team can not be held liable for any losses or taxes you may incur.
-     You also agree that the team is representing the token is community members, and cannot modify the contract due to it being renounced.
-    Do conduct your own due diligence and consult your financial advisor before making any investment decision
-            </p>
-         </div> */}
          
-         <div className='community'>
-            <h2> Community</h2>
+         <div className='socials'>
+           <div className='community'>
+           <h2 className='commTitle'> Community</h2>
             <ul>
-                <li><a href='/'> Telegram</a></li>
-                <li> <a href='/'> Discord</a></li>
+                <li><a href='/' id='footerLink'> Telegram</a></li>
+                <li> <a href='/' id='footerLink'> Discord</a></li>
             </ul>
-         </div>
+           </div>
 
-         <div className='connect'>
-            <h2> Connect</h2>
+            <div className='connect'>
+            <h2 className='commTitle'> Connect</h2>
             <ul>
-                <li><a href='/'>Twitter</a></li>
-                <li><a href='/'>Facebook</a></li>
-                <li><a href='/'>Instagram</a></li>
+                <li><a href='/' id='footerLink'>Twitter</a></li>
+                <li><a href='/' id='footerLink'>Facebook</a></li>
+                <li><a href='/' id='footerLink'>Instagram</a></li>
                 
             </ul>
          </div>
+         </div>
+
+      
 
 
         </div>

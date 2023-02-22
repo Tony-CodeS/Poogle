@@ -13,8 +13,8 @@ function home() {
         </div>
         <div className='Links'>
           <ul className='directory'>
-            <li> Tokenomics</li>
-            <li> Community</li>
+            <li className='li'> Tokenomics</li>
+            <li className='li'> Community</li>
           </ul>
           <button className='launchBtn'> Launch App</button>
         </div>
