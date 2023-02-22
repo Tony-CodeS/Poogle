@@ -8,19 +8,14 @@ function about() {
             <div className='SecondAbout'>
                 <h1 className='AboutTitle'> About Poogle</h1>
                 <p className='AboutText'>
-                None of the information on this website should be construed as providing legal or financial advice. 
-     Please note there are always risks associated with smart contracts. Please use at your own risk. 
-     Poogle Meme Token is not a registered broker, analyst or investment advisor. If you have purchased Poogle,
-     you agree that you are not purchasing a security or investment.
-     The Poogle team can not be held liable for any losses or taxes you may incur.
-     You also agree that the team representing the token is community members, and cannot modify the contract due to it being renounced.
-    Do conduct your own due diligence and consult your financial advisor before making any investment decision  None of the information on this website should be construed as providing legal or financial advice. 
-     Please note there are always risks associated with smart contracts. Please use at your own risk. 
-     Poogle Meme Token is not a registered broker, analyst or investment advisor. If you have purchased Poogle,
-     you agree that you are not purchasing a security or investment.
-     The Poogle team can not be held liable for any losses or taxes you may incur.
-     You also agree that the team representing the token is community members, and cannot modify the contract due to it being renounced.
-    Do conduct your own due diligence and consult your financial advisor before making any investment decision
+                As humanity evolves, AI will become deeply embedded or submerged in our daily lives, 
+                and society will become more developed and transformed.
+                 But with AI proliferation, 
+                 comes many challenges such as the loss of jobs and the transfer or surrender of some mental and critical thinking to AI.
+                  But man is the creator of AI and thus should drive the development, integration, and adoption to the full benefit of society.
+                   Poogle.ai want to with the help of man - the community to help raise awareness of AI, 
+                   its opportunities, and challenges as well as drive a new narrative of internet reputation in the web3 social space.
+                 To wit, we call on all Poogleans to help contribute to the Poogle community mission.
                 </p>
             </div>
         </div>
