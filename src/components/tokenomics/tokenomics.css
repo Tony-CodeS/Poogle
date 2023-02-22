@@ -1,3 +1,190 @@
 .Tokenomics{
     color: white;
+    background: url('../../assets/Pooglr\ bg.jpg');
+    background-size: cover;
+}
+
+.tokenomicsHead{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.secondTokenomicsHero{
+    width: 90%;
+    margin: auto;
+    /* margin-top: 30px; */
+  
+}
+
+.icon{
+    font-size: 40px;
+    color: #FFF766;
+}
+
+.title{
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tokenomicsDescription{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.tokenomicsCard{
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.figures{
+    font-size: 70px;
+    color: #FFF766;
+    margin: 20px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.figuresDes{
+    font-size: 30px;
+}
+
+.secondTokenomicsDes{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.secondTokenomicsCard{
+    text-align: center;
+    width: 500px;
+    
+}
+
+.figures2{
+    font-size: 70px;
+    color: #FFF766;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+
+.figuresDes2{
+    font-size: 30px;
+   
+}
+
+.descriptionTitle{
+    font-weight: bolder;
+    color:#FFF766;
+}
+
+@media screen and (max-width:1024px) {
+    .secondTokenomicsCard{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .tokenomicsDescription{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .tokenomicsCard{
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .figuresDes{
+        font-size: 30px;
+        width: 500px;
+        margin: auto;
+    }
+
+    .tokenomicsHead{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        padding: 50px;
+        padding-bottom: 0;
+    
+    }
+}
+
+@media screen and (max-width:850px) {
+    .tokenomicsHead{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+        padding-left: 150px;
+        padding-bottom: 0;
+    
+    }
+}
+
+@media screen and (max-width:600px){
+    .tokenomicsHead{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: 50px;
+        padding-left: 100px;
+        padding-bottom: 0;
+    
+    }
+}
+
+@media screen and (max-width:500px){
+    .figuresDes{
+        font-size: 25px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .tokenomicsHead{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: 50px;
+        background: red;
+        padding-left: 50px;
+        padding-bottom: 0;
+    
+    }
+    .icon{
+        font-size: 40px;
+        color: #FFF766;
+    }
+}
+
+@media screen and (max-width:400px){
+    .icon{
+        font-size: 40px;
+        color: #FFF766;
+    }
+    
+    .tokenomicsHead{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-bottom: 0;
+      
+    
+    }
 }

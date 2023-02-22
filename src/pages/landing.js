@@ -4,6 +4,7 @@ import Home from '../components/home/home'
 import Tokenomics from '../components/tokenomics/tokenomics'
 import Faq from '../components/FAQS/faq'
 import Footer from '../components/footer/footer'
+import About from '../components/About/about'
 import Gettingstarted from '../components/getstarted/gettingstarted'
 
 function landing() {
@@ -11,6 +12,7 @@ function landing() {
     <div>
         {/* <Nav/> */}
         <Home/>
+        <About/>
         <Tokenomics/>
         <Gettingstarted/>
         <Faq/>

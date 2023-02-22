@@ -57,7 +57,7 @@ li{
 
 .heroDes{
   width: 50%;
-  height: 600px;
+  height: 700px;
   margin-top: 80px;
 }
 
@@ -89,12 +89,12 @@ li{
 }
 
 .heroH1{
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bolder;
 }
 
 .herocolored{
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bolder;
   display: inline;
   color: #FFF766;
