@@ -1,4 +1,5 @@
 import React from 'react'
+import "aos/dist/aos.css"
 import './gettingstarted.css'
 
 function gettingstarted() {
@@ -9,7 +10,7 @@ function gettingstarted() {
            </div>
 
             <div className='card-div'>
-                <div className='card'>
+                <div className='card' data-aos="fade-up">
                     <div className='card-heading'>
                         <button className='getbtn1'>01</button>
                         <h2 className='cardTitle'> Choose your wallet</h2>
@@ -21,7 +22,7 @@ function gettingstarted() {
                     </h4>
                     <button className='getbtn2'> <a href='/'> learn more</a></button>
                 </div>
-                <div className='card'>
+                <div className='card' data-aos="fade-up">
                 <div className='card-heading'>
                         <button className='getbtn1'>02</button>
                         <h2  className='cardTitle'> wallet configuration</h2>
@@ -33,7 +34,7 @@ function gettingstarted() {
 
                     <button className='getbtn2'> <a href='/'> Guide</a></button>
                 </div>
-                <div className='card'>
+                <div className='card' data-aos="fade-up">
                 <div className='card-heading'>
                         <button className='getbtn1'>03</button>
                         <h2  className='cardTitle'>Get some poogle coin</h2>

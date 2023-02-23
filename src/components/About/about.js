@@ -1,4 +1,6 @@
 import React from 'react'
+// import Aos from 'aos';
+import "aos/dist/aos.css"
 import './about.css'
 
 function about() {
@@ -6,8 +8,8 @@ function about() {
     <>
         <div className='About'>
             <div className='SecondAbout'>
-                <h1 className='AboutTitle'> About Poogle</h1>
-                <p className='AboutText'>
+                <h1 className='AboutTitle' data-aos="fade-up"> About Poogle</h1>
+                <p className='AboutText' data-aos="zoom-in">
                 As humanity evolves, AI will become deeply embedded or submerged in our daily lives, 
                 and society will become more developed and transformed.
                  But with AI proliferation, 
