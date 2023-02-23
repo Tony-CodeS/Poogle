@@ -65,8 +65,8 @@ function tokenomics() {
           </div>
 
           <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>1M</h1>
-            <p className='figuresDes2'> Community Members</p>
+          <h1 className='figures2'>1K+</h1>
+            <p className='figuresDes2'> Projects</p>
           </div>
         </div>
       </div>
