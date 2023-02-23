@@ -35,7 +35,7 @@
     color: white;
 }
 #span{
-    background: yellow;
+    background: #FFF766;
 }
 #poogleLink{
    color: white;
@@ -43,6 +43,10 @@
     margin-top: 0;
     font-size: 20px;
     padding-top: 0;
+}
+
+#poogleLink:hover{
+    color: #FFF766;
 }
 
 #poogleLinks{
