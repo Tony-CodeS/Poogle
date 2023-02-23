@@ -24,17 +24,17 @@ function nav() {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#Poogle" id='poogleLink'>POOGLE</a>
+          <a class="nav-link active" aria-current="page" href="#home" id='poogleLink'>POOGLE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Tokenomics" id='poogleLink'>Tokenomics</a>
+          <a class="nav-link" href="#tokenomics" id='poogleLink'>Tokenomics</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/" id='poogleLink'>COMMUNITY</a>
+          <a class="nav-link" href="#community" id='poogleLink'>COMMUNITY</a>
         </li>
-        <li class="nav-item">
+        {/* <li class="nav-item">
           <a class="nav-link" href="/" id='poogleLink'>FAQs</a>
-        </li>
+        </li> */}
 
         <button className='launchBtn'> Launch App</button>
       </ul>

@@ -7,7 +7,7 @@ import {FaCoins} from 'react-icons/fa'
 
 function tokenomics() {
   return (
-    <div className='Tokenomics'>
+    <div className='Tokenomics' id='tokenomics'>
       <div className='secondTokenomicsHero'>
         <div className='tokenomicsHead' data-aos="fade-up">
           <FaCoins className='icon'/>

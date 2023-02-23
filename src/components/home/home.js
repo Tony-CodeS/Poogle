@@ -13,7 +13,7 @@ function Home() {
    }, []);
 
   return (
-   <div className='mainHeroDiv'>
+   <div className='mainHeroDiv' id='home'>
     <div className='SecondMainHeroDiv'>
       <div className='Nav'>
         <div id='logo'>
@@ -22,8 +22,8 @@ function Home() {
         </div>
         <div className='Links'>
           <ul className='directory'>
-            <li className='li'> Tokenomics</li>
-            <li className='li'> Community</li>
+            <li className='li'> <a href='#tokenomics' className='homeLink'> Tokenomics</a></li>
+            <li className='li'> <a href='#community'  className='homeLink'>Community</a></li>
           </ul>
           <button className='launchBtn' data-aos="zoom-in"> Launch App</button>
         </div>

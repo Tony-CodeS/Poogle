@@ -10,7 +10,7 @@ import {BsMedium} from 'react-icons/bs'
 function community() {
   return (
     <div>
-      <div className='communityDiv'>
+      <div className='communityDiv' id='community'>
         <h1 className='communityTitle' data-aos="zoom-in"> Become a Poogleans... </h1>
         <p> One of the marvelous things about community is that it enables us
            to welcome and help people in a way we couldn't as individuals.</p>

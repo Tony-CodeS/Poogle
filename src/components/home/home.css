@@ -114,7 +114,12 @@
   margin-top: 10px;
 }
 
-
+.homeLink{
+ color: white;
+}
+.homeLink:hover{
+  color: #FFF766;
+}
 @media screen and (max-width:1024px){
   li{
     margin-top: 35px;
