@@ -10,6 +10,10 @@
 .Nav{
   display: flex;
   justify-content: space-between;
+  /* position: fixed;
+  width: 90%;
+  background:url('../../assets/pooglebackground.png');
+  top: 0; */
  
 }
 .poogle{

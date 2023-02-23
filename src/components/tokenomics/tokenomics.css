@@ -41,8 +41,13 @@
     text-align: center;
     width: 400px;
     margin-top: 30px;
+  
     /* text-align: center;
     font-size: 80px; */
+}
+
+.tokenomicsCard:hover{
+    box-shadow: 0 0 20px #FFF766; 
 }
 
 .figures{
@@ -67,7 +72,12 @@
 .secondTokenomicsCard{
     text-align: center;
     width: 500px;
+  
     
+}
+
+.secondTokenomicsCard:hover{
+    box-shadow: 0 0 20px #FFF766; 
 }
 
 .figures2{
