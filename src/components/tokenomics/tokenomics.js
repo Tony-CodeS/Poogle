@@ -30,22 +30,25 @@ function tokenomics() {
 
         <div className='tokenomicsCard' data-aos="zoom-in">
           <h1 className='figures'>10%</h1>
-          <h2 className='descriptionTitle'> Community</h2>
+          <h2 className='descriptionTitle'> COMMUNITY</h2>
           <p className='figuresDes'>  10% will be initially unlocked at tokensale and then 5% to be unlocked every 3 months.
            But the Chest will remain untouched until other allocations have been expended. </p>
         </div>
+
+      
         <div className='tokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures'>50%</h1>
-          <h2 className='descriptionTitle'> BURNING</h2>
+          <h1 className='figures'>1/4</h1>
+          <h2 className='descriptionTitle'> BURN</h2>
           <p className='figuresDes'>  Quarterly burn using 50% accumulated tax.
            Remaining 50% will be for charity. Unsold tokens will be burnt </p>
         </div>
         </div>
 
         <div className='secondTokenomicsDes'>
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-            <h1 className='figures2'>$0.627</h1>
-            <p className='figuresDes2'> Market-Price</p>
+        
+            <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>100 trillion</h1>
+            <p className='figuresDes2'> Max-Supply</p>
           </div>
           <div className='secondTokenomicsCard' data-aos="zoom-in">
           <h1 className='figures2'>1%</h1>
@@ -55,18 +58,20 @@ function tokenomics() {
           <h1 className='figures2'>1%</h1>
             <p className='figuresDes2'> sell tax</p>
           </div>
+        
           <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>1 trillion</h1>
-            <p className='figuresDes2'> Max-Supply</p>
-          </div>
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>1M</h1>
-            <p className='figuresDes2'> Community Members</p>
+          <h1 className='figures2'>10%</h1>
+            <p className='figuresDes2'>Marketing</p>
           </div>
 
           <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>1K+</h1>
-            <p className='figuresDes2'> Projects</p>
+          <h1 className='figures2'>10%</h1>
+            <p className='figuresDes2'> Developments</p>
+          </div>
+
+          <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>10%</h1>
+            <p className='figuresDes2'> Chest</p>
           </div>
         </div>
       </div>

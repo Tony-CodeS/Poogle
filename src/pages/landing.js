@@ -5,7 +5,7 @@ import Tokenomics from '../components/tokenomics/tokenomics'
 import Community from '../components/Community/community'
 import Footer from '../components/footer/footer'
 import About from '../components/About/about'
-import Gettingstarted from '../components/getstarted/gettingstarted'
+// import Gettingstarted from '../components/getstarted/gettingstarted'
 
 function landing() {
   return (
@@ -14,7 +14,7 @@ function landing() {
         <Home/>
         <About/>
         <Tokenomics/>
-        <Gettingstarted/>
+        {/* <Gettingstarted/> */}
         <Community/>
         <Footer/>
     </div>
