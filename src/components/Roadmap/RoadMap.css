@@ -2,6 +2,8 @@
     color: white;
     background: url('../../assets/Pooglr\ bg.jpg');
     align-items: center;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
    
 }
 
