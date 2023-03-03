@@ -20,7 +20,17 @@ function about() {
                  To wit, we call on all Poogleans to help contribute to the Poogle community mission.
                 </p>
             </div>
+
+            <div className='SecondAbout' id='Vision'>
+                <h1 className='AboutTitle' data-aos="fade-up">Vision</h1>
+                <p className='AboutText' data-aos="zoom-in">
+                To help chart a social course that will define the true meaning of reputation in the AI powered world. 
+
+                </p>
+            </div>
         </div>
+
+        
     </>
   )
 }

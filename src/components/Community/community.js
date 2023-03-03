@@ -15,10 +15,10 @@ function community() {
         <p> One of the marvelous things about community is that it enables us
            to welcome and help people in a way we couldn't as individuals.</p>
         <ul className='comLists'>
-          <li className='comList' data-aos="zoom-in"> <a href='/' className='comLink'> <FaTelegramPlane className='comIcon'/> </a></li>
-          <li className='comList' data-aos="zoom-in"> <a href='/' className='comLink'> <IoLogoTwitter className='comIcon'/></a></li>
-          <li className='comList' data-aos="zoom-in"> <a href='/' className='comLink'><SiDiscord className='comIcon'/> </a></li>
-          <li className='comList' data-aos="zoom-in"> <a href='/' className='comLink'> <BsMedium className='comIcon'/> </a></li>
+          <li className='comList' data-aos="zoom-in"> <a href='/'target="_blank" className='comLink'> <FaTelegramPlane className='comIcon'/> </a></li>
+          <li className='comList' data-aos="zoom-in"> <a href=' https://twitter.com/poogle_ai'target="_blank" className='comLink'> <IoLogoTwitter className='comIcon'/></a></li>
+          <li className='comList' data-aos="zoom-in"> <a href='/' target="_blank" className='comLink'><SiDiscord className='comIcon'/> </a></li>
+          <li className='comList' data-aos="zoom-in"> <a href='https://poogle.medium.com' className='comLink'> <BsMedium className='comIcon'/> </a></li>
     
         </ul>
       </div>

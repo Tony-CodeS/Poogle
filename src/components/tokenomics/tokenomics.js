@@ -14,6 +14,40 @@ function tokenomics() {
           <h2 className='title' > TOKENOMICS</h2>
           <FaCoins className='icon'/>
         </div>
+        <div className='secondTokenomicsDes'>
+        <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>POOGLE</h1>
+            <p className='figuresDes2'> Token-Name</p>
+          </div>
+
+          <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>PGL</h1>
+            <p className='figuresDes2'> Token-Ticker</p>
+          </div>
+
+            <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>100 trillion</h1>
+            <p className='figuresDes2'> Max-Supply</p>
+          </div>
+          <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>1%</h1>
+            <p className='figuresDes2'> Buy tax</p>
+          </div>
+          <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>1%</h1>
+            <p className='figuresDes2'> sell tax</p>
+          </div>
+
+          <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>B.S.C</h1>
+            <p className='figuresDes2'>Network</p>
+          </div>
+        
+          <div className='secondTokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures2'>.....................</h1>
+            <p className='figuresDes2'>Contract</p>
+          </div>
+        </div>
 
         <div className='tokenomicsDescription'>
         <div className='tokenomicsCard' data-aos="zoom-in">
@@ -30,50 +64,54 @@ function tokenomics() {
 
         <div className='tokenomicsCard' data-aos="zoom-in">
           <h1 className='figures'>10%</h1>
-          <h2 className='descriptionTitle'> COMMUNITY</h2>
-          <p className='figuresDes'>  10% will be initially unlocked at tokensale and then 5% to be unlocked every 3 months.
-           But the Chest will remain untouched until other allocations have been expended. </p>
+          <h2 className='descriptionTitle'> Community </h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
         </div>
 
-      
         <div className='tokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures'>1/4</h1>
-          <h2 className='descriptionTitle'> BURN</h2>
-          <p className='figuresDes'>  Quarterly burn using 50% accumulated tax.
-           Remaining 50% will be for charity. Unsold tokens will be burnt </p>
-        </div>
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Marketing </h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
         </div>
 
-        <div className='secondTokenomicsDes'>
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Developments</h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
+        </div>
+
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Chest </h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
+        </div>
+
+        </div>
+
+      <div className='thirdtokenomicsdiv' data-aos="fade-in">
+      <div className='thirdtokenomicsdescription'>
+          <h2 className='thirdHeading'> 
+          Community-Marketing-Development-Chest:
+          </h2>
+          <p className='Text'>10% will be initially unlocked at tokensale and then 5% to be unlocked every 3 months. 
+          But the Chest will remain untouched until other allocations have been expended. </p>
+        </div>
+
+        <div  className='thirdtokenomicsdescription' data-aos="zoom-in">
+          <h2 className='thirdHeading'> 
+          Burn / Tax
+          </h2>
+          <p className='Text'>Quarterly burn using 50% accumulated tax. Remaining 50% will be for charity. 
+      </p>
         
-            <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>100 trillion</h1>
-            <p className='figuresDes2'> Max-Supply</p>
-          </div>
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>1%</h1>
-            <p className='figuresDes2'> Buy tax</p>
-          </div>
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>1%</h1>
-            <p className='figuresDes2'> sell tax</p>
-          </div>
-        
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>10%</h1>
-            <p className='figuresDes2'>Marketing</p>
-          </div>
-
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>10%</h1>
-            <p className='figuresDes2'> Developments</p>
-          </div>
-
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>10%</h1>
-            <p className='figuresDes2'> Chest</p>
-          </div>
         </div>
+        <div  className='thirdtokenomicsdescription' data-aos="zoom-out">
+        <h2 className='thirdHeading' id='thirdHeading'>   Unsold tokens</h2>
+        <p className='Text' id='thirdHeading' >  will be burnt</p>
+        </div>
+      </div>
+
+        
       </div>
     </div>
   )

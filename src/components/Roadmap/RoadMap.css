@@ -1,0 +1,124 @@
+.RoadMapDiv{
+    color: white;
+    background: url('../../assets/Pooglr\ bg.jpg');
+    align-items: center;
+   
+}
+
+.RoadMapList{
+    font-size: 25px;
+    margin-top: 10px;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    text-decoration:dotted;
+    padding: 20px;
+    border-radius: 60px;
+    /* text-align: center; */
+    background: rgb(20, 20, 20, 0.4);
+}
+
+.RoadMapLi{
+    margin-bottom: 30px;
+    font-style: italic;
+    list-style:outside;
+    text-align: center;
+    text-shadow: 0 1px  #FFF677;
+
+}
+.RoadMapTitle{
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-family: 'Great Vibes';
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-shadow: 0 3px  #FFF677;
+}
+
+.useCaseTitle{
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-family: 'Great Vibes';
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-shadow: 0 3px  #FFF677;
+}
+
+
+
+.useCaseIcon{
+    font-size: 100px;
+    color:  #FFF677;
+}
+
+.useCaseIconDiv{
+    /* margin-right: 200px; */
+    padding: 10px;
+    width: 300px;
+
+    
+}
+
+
+.RoadMapTitles{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Great Vibes';
+    color: white;
+}
+
+.useCase{
+    margin-top: 30px;
+    padding-bottom: 150px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(46, 44, 44);
+    text-align: center;
+}
+
+.useCaseContent{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+@media screen and (max-width:600px){
+    .RoadMapList{
+        font-size: 20px;
+        margin-top: 10px;
+        width: 90%;
+        
+    }
+
+    .RoadMapTitle{
+        font-size: 60px;
+     
+      
+    }
+}
+
+@media screen and (max-width:300px) {
+    .RoadMapTitle{
+        font-size: 40px;
+     
+      
+    }
+    .useCaseTitle{
+        font-size: 40px;
+     
+      
+    }
+    .RoadMapList{
+        font-size: 20px;
+        margin-top: 10px;
+        width: 90%;
+        
+    }
+}

@@ -2,6 +2,7 @@
     display: flex;
     font-size: 20pt;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .main-div{
@@ -30,7 +31,7 @@
     display: none;
     position: fixed;
     top: 0;
-    z-index: -1;
+    z-index: 1;
     background-color: #4f6d6c;
     color: white;
 }

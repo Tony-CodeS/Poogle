@@ -99,6 +99,34 @@
     color:#FFF766;
 }
 
+.thirdtokenomicsdiv{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.Text{
+    font-size: 25px;
+    margin-top: 10px;
+    line-height:40px;
+}
+
+.thirdHeading{
+    font-weight: bolder;
+    color:#FFF766;
+    font-style: italic;
+}
+.thirdtokenomicsdescription{
+    margin-top: 50px;
+}
+
+#thirdHeading{
+    display: inline;
+}
+
 @media screen and (max-width:1024px) {
     .secondTokenomicsCard{
         text-align: center;
@@ -156,6 +184,7 @@
         padding-bottom: 0;
     
     }
+
 }
 
 @media screen and (max-width:500px){
@@ -198,4 +227,14 @@
       
     
     }
+}
+
+@media screen and (max-width:300px) {
+    .figures2{
+        font-size: 50px;
+        color: #FFF766;
+        margin-bottom: 0;
+        margin-top: 30px;
+        font-weight: 900;
+    } 
 }

@@ -31,7 +31,7 @@ function footer() {
            <div className='community'>
            <h2 className='commTitle'> Community</h2>
             <ul>
-                <li><a href='/' id='footerLink'> Telegram</a></li>
+                <li><a href=' https://poogle.medium.com'target="_blank" id='footerLink'> Telegram</a></li>
                 <li> <a href='/' id='footerLink'> Discord</a></li>
             </ul>
            </div>
@@ -39,7 +39,7 @@ function footer() {
             <div className='connect'>
             <h2 className='commTitle'> Connect</h2>
             <ul>
-                <li><a href='/' id='footerLink'>Twitter</a></li>
+                <li><a href=' https://twitter.com/poogle_ai' target="_blank" id='footerLink'>Twitter</a></li>
                 <li><a href='/' id='footerLink'>Facebook</a></li>
                 <li><a href='/' id='footerLink'>Instagram</a></li>
                 
