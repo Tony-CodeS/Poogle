@@ -1,4 +1,5 @@
 import React from 'react'
+import Community from '../Community/community'
 import './footer.css'
 
 function footer() {
@@ -14,9 +15,10 @@ function footer() {
                 </p>
           
             </div> */}
+            <Community/>
             <div className='disclaimer'>
             <h1 className='commTitle'> Legal Disclaimer</h1>
-         <p>
+         <p id='disclaimerText'>
      None of the information on this website should be construed as providing legal or financial advice. 
      Please note there are always risks associated with smart contracts. Please use at your own risk. 
      {/* Poogle Meme Token is not a registered broker, analyst or investment advisor. If you have purchased Poogle,
@@ -26,7 +28,9 @@ function footer() {
     Do conduct your own due diligence and consult your financial advisor before making any investment decision
             </p>
          </div>
-         
+     
+
+{/*          
          <div className='socials'>
            <div className='community'>
            <h2 className='commTitle'> Community</h2>
@@ -45,7 +49,7 @@ function footer() {
                 
             </ul>
          </div>
-         </div>
+         </div> */}
 
       
 
