@@ -6,15 +6,6 @@ function footer() {
   return (
     <div>
         <div className='footer'>
-            {/* <div className='company'>
-                <h1 className='commTitle'>Company</h1>
-                <p>
-                Poogle  is an AI meme token that had its ownership renounced and given to the community upon its creation.
-                Created on the Binance Smart Chain network with contract renounced and Liquidity burnt in its creation, 
-                Poogle has grown into a fully functional, decentralized, 100% community-driven project.
-                </p>
-          
-            </div> */}
             <Community/>
             <div className='disclaimer'>
             <h1 className='commTitle'> Legal Disclaimer</h1>

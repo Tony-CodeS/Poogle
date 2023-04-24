@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mr+Dafoe&display=swap');
+
 .communityDiv{
     width: 700px;
 
@@ -29,10 +29,10 @@
     margin-right: 50px;
 }
 .communityTitle{
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 30px;
     font-weight: 100;
-    font-family: 'Great Vibes';
+    /* font-family: 'Poppins'; */
 }
 
 @media screen and (max-width:1280px) {
