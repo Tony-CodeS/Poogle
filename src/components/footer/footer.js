@@ -8,7 +8,7 @@ function footer() {
         <div className='footer'>
             <Community/>
             <div className='disclaimer'>
-            <h1 className='commTitle'> Legal Disclaimer</h1>
+            <h2 className='commTitle'> Legal Disclaimer</h2>
          <p id='disclaimerText'>
      None of the information on this website should be construed as providing legal or financial advice. 
      Please note there are always risks associated with smart contracts. Please use at your own risk. 

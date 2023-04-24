@@ -27,6 +27,15 @@ function about() {
                  more inclusive, and engaging social community
                   that benefits every member.
                 </p>
+                <div className='WhyPoogle'>
+                <h1 className='AboutTitle' data-aos="fade-up">Why Poogle?</h1>
+                  <p className='AboutText' data-aos="zoom-in">The explosive growth of AI is transforming how we understand systems,
+                     create, and exchange it. It is helping to unlock a new way to see
+                      and exploit value. Combined with the heavy data-generating platforms 
+                      like social media and the new form of money, cryptocurrency,
+                       we want to build a community
+                     where everyone contributes to and extracts value like never before.</p>
+                </div>
             </div>
         </div>
 
