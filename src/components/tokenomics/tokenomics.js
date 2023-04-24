@@ -2,17 +2,14 @@ import React from 'react'
 import './tokenomics.css'
 // import Aos from 'aos';
 import "aos/dist/aos.css"
-import {FaCoins} from 'react-icons/fa'
-// import Marquee from "react-fast-marquee";
+
 
 function tokenomics() {
   return (
     <div className='Tokenomics' id='tokenomics'>
       <div className='secondTokenomicsHero'>
         <div className='tokenomicsHead' data-aos="fade-up">
-          <FaCoins className='icon'/>
           <h2 className='title' > TOKENOMICS</h2>
-          <FaCoins className='icon'/>
         </div>
         <div className='secondTokenomicsDes'>
         <div className='secondTokenomicsCard' data-aos="zoom-in">
@@ -39,12 +36,12 @@ function tokenomics() {
           </div>
 
           <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>B.S.C</h1>
+          <h1 className='figures2'>BNB Chain (BSC)</h1>
             <p className='figuresDes2'>Network</p>
           </div>
         
           <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>.....................</h1>
+          <h1 className='figures2'>...............</h1>
             <p className='figuresDes2'>Contract</p>
           </div>
         </div>
@@ -53,7 +50,7 @@ function tokenomics() {
         <div className='tokenomicsCard' data-aos="zoom-in">
           <h1 className='figures'>35%</h1>
           <h2 className='descriptionTitle'> TOKEN SALE </h2>
-          <p className='figuresDes'> Token sale 35% of max supply = 35T</p>
+          <p className='figuresDes'> 35% of max supply = 35T</p>
         </div>
 
         <div className='tokenomicsCard' data-aos="zoom-in">
@@ -91,7 +88,7 @@ function tokenomics() {
       <div className='thirdtokenomicsdiv' data-aos="fade-in">
       <div className='thirdtokenomicsdescription'>
           <h2 className='thirdHeading'> 
-          Community-Marketing-Development-Chest:
+          Community, Marketing, Development & Chest:
           </h2>
           <p className='Text'>10% will be initially unlocked at tokensale and then 5% to be unlocked every 3 months. 
           But the Chest will remain untouched until other allocations have been expended. </p>

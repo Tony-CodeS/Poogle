@@ -10,21 +10,23 @@ function about() {
             <div className='SecondAbout'>
                 <h1 className='AboutTitle' data-aos="fade-up"> About Poogle</h1>
                 <p className='AboutText' data-aos="zoom-in">
-                As humanity evolves, AI will become deeply embedded or submerged in our daily lives, 
-                and society will become more developed and transformed.
-                 But with AI proliferation, 
-                 comes many challenges such as the loss of jobs and the transfer or surrender of some mental and critical thinking to AI.
-                  But man is the creator of AI and thus should drive the development, integration, and adoption to the full benefit of society.
-                   Poogle.ai want to with the help of man - the community to help raise awareness of AI, 
-                   its opportunities, and challenges as well as drive a new narrative of internet reputation in the web3 social space.
-                 To wit, we call on all Poogleans to help contribute to the Poogle community mission.
+                Poogle is a token that's powered by a community of users who collaborate to build a thriving,
+                community-driven artificial intelligence social meme ecosystem.
+                Poogle leverages the capabilities of AI and machine learning to analyze market trends,
+                coupled with a keen understanding of social media sentiment and user behavior.
+                On Poogle, users are active participants in decision-making through democratic voting mechanisms,,
+                ensuring transparency and accountability at every stage. The memecoin also provides rewards and incentives for those who are actively engaged, promoting shared ownership and greater involvement. By embracing this community-driven approach, Poogle creates a more inclusive, transparent,
+              and user-friendly community in the realm of AI-powered social finance.
                 </p>
             </div>
 
             <div className='SecondAbout' id='Vision'>
                 <h1 className='AboutTitle' data-aos="fade-up">Vision</h1>
                 <p className='AboutText' data-aos="zoom-in">
-                To help chart a social course that will define the true meaning of reputation in the AI powered world. 
+                To build a close-knit, collaborative,
+                 more inclusive, and engaging social community
+                  that benefits every member.
+
 
                 </p>
             </div>

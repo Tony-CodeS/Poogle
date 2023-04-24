@@ -31,7 +31,7 @@ function Home() {
 
       
     <div className='heroDes'>
-    <h1 className='heroH1' data-aos="fade-up"> A COMMUNITY DRIVEN <h1 className='herocolored'> AI MEME</h1> TOKEN</h1>
+    <h1 className='heroH1' data-aos="fade-up"> A COMMUNITY DRIVEN <h1 className='herocolored'> AI SOCIAL MEME</h1> TOKEN</h1>
     <div className='btns'>
       <motion.button
        whileHover={{

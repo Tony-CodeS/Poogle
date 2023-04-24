@@ -7,18 +7,14 @@
 }
 
 .tokenomicsHead{
-    display: flex;
     width: 400px;
     margin: auto;
-    padding-top: 50px;
-
+    padding-top: 30px;
 }
 
 .secondTokenomicsHero{
     width: 90%;
-    margin: auto;
-    /* margin-top: 30px; */
-  
+    margin: auto; 
 }
 
 .icon{
@@ -27,9 +23,7 @@
 }
 
 .title{
-    font-weight: bolder;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 60px;
 }
 
 .tokenomicsDescription{
@@ -43,9 +37,6 @@
     text-align: center;
     width: 500px;
     margin-top: 30px;
-  
-    /* text-align: center;
-    font-size: 80px; */
 }
 
 .tokenomicsCard:hover{
@@ -74,8 +65,7 @@
 .secondTokenomicsCard{
     text-align: center;
     width: 500px;
-  
-    
+    margin: 10px;
 }
 
 .secondTokenomicsCard:hover{
@@ -83,7 +73,7 @@
 }
 
 .figures2{
-    font-size: 70px;
+    font-size: 50px;
     color: #FFF766;
     margin-bottom: 0;
     margin-top: 30px;
@@ -92,8 +82,7 @@
 
 
 .figuresDes2{
-    font-size: 30px;
-   
+    font-size: 25px;
 }
 
 .descriptionTitle{
@@ -129,12 +118,19 @@
     display: inline;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1030px) {
     .secondTokenomicsCard{
         text-align: center;
-        width: 100%;
-        
+        width: 400px;
+        /* border: 1px solid pink; */
     }
+
+    .secondTokenomicsDes{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
     .tokenomicsDescription{
         display: flex;
         justify-content: space-between;
@@ -144,8 +140,8 @@
 
     .tokenomicsCard{
         text-align: center;
-        width: 100%;
         margin-top: 20px;
+        width: 400px;
     }
 
     .figuresDes{
@@ -155,36 +151,44 @@
     }
 
     .tokenomicsHead{
-        display: flex;
         width: 50%;
         margin: auto;
-        padding: 50px;
-        padding-bottom: 0;
-    
+    }
+
+    .figures{
+        font-size: 60px;
+    }
+}
+
+
+
+@media screen and (max-width:920px) {
+    .secondTokenomicsCard{
+        text-align: center;
+        width: 100%;
+    }
+
+    .tokenomicsCard{
+        width: 100%;
     }
 }
 
 @media screen and (max-width:850px) {
     .tokenomicsHead{
-        display: flex;
-        width: 80%;
+        width: 60%;
         margin: auto;
-        padding: 50px;
-        padding-left: 150px;
-        padding-bottom: 0;
-    
     }
 }
 
 @media screen and (max-width:600px){
     .tokenomicsHead{
-        display: flex;
-        width: 100%;
+        width: 60%;
+        text-align: center;
         margin: auto;
-        padding: 50px;
-        padding-left: 100px;
-        padding-bottom: 0;
-    
+    }
+
+    .title{
+        font-size: 40px;
     }
 
 }
@@ -199,17 +203,19 @@
 
 @media screen and (max-width:450px) {
     .tokenomicsHead{
-        display: flex;
-        width: 100%;
+        width: 90%;
         margin: auto;
-        padding: 50px;
-        padding-left: 50px;
-        padding-bottom: 0;
-    
+        text-align: center;
+        padding-left: 0;
     }
-    .icon{
-        font-size: 40px;
-        color: #FFF766;
+   
+
+    .secondTokenomicsDes{
+        margin-top: 10px;
+    }
+
+    .figures2{
+        font-size: 30px;
     }
 }
 
@@ -233,10 +239,11 @@
 
 @media screen and (max-width:300px) {
     .figures2{
-        font-size: 50px;
-        color: #FFF766;
-        margin-bottom: 0;
-        margin-top: 30px;
-        font-weight: 900;
+        font-size: 20px;
     } 
+
+    .title{
+        font-weight: bolder;
+        font-size: 30px;
+    }
 }

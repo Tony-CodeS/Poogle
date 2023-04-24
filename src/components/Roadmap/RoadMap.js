@@ -34,9 +34,9 @@ function RoadMap() {
             <h2 className='useCaseTitle' data-aos="fade-up">Use Cases</h2>
             <div className='useCaseContent'>
             
-                <div className='useCaseIconDiv' data-aos="zoom-in"><RiGovernmentFill className='useCaseIcon'/> <h2 className='RoadMapTitles'>Governance</h2></div>
-                <div className='useCaseIconDiv' data-aos="zoom-in"><FaPeopleCarry className='useCaseIcon'/> <h2 className='RoadMapTitles'>Social-Causes</h2></div>
-                <div className='useCaseIconDiv' data-aos="zoom-in"><MdCasino className='useCaseIcon'/> <h2 className='RoadMapTitles'> Staking</h2></div>
+                <div className='useCaseIconDiv' data-aos="zoom-in"><RiGovernmentFill className='useCaseIcon'/> <p className='RoadMapTitles'>Governance</p></div>
+                <div className='useCaseIconDiv' data-aos="zoom-in"><FaPeopleCarry className='useCaseIcon'/> <p className='RoadMapTitles'>Social-Causes</p></div>
+                <div className='useCaseIconDiv' data-aos="zoom-in"><MdCasino className='useCaseIcon'/> <p className='RoadMapTitles'> Staking</p></div>
             
             </div>
         </div>
