@@ -100,12 +100,15 @@ function tokenomics() {
           </h2>
           <p className='Text'>Quarterly burn using 50% accumulated tax. Remaining 50% will be for charity. 
       </p>
-        
-        </div>
-        <div  className='thirdtokenomicsdescription' data-aos="zoom-out">
+      <div  className='thirdtokenomicsdescription' data-aos="zoom-out">
         <h2 className='thirdHeading' id='thirdHeading'>   Unsold tokens</h2>
         <p className='Text' id='thirdHeading' >  will be burnt</p>
         </div>
+        </div>
+        {/* <div  className='thirdtokenomicsdescription' data-aos="zoom-out">
+        <h2 className='thirdHeading' id='thirdHeading'>   Unsold tokens</h2>
+        <p className='Text' id='thirdHeading' >  will be burnt</p>
+        </div> */}
       </div>
 
         

@@ -26,8 +26,6 @@ function about() {
                 To build a close-knit, collaborative,
                  more inclusive, and engaging social community
                   that benefits every member.
-
-
                 </p>
             </div>
         </div>
