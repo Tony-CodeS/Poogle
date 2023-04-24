@@ -35,7 +35,7 @@
 
 .tokenomicsCard{
     text-align: center;
-    width: 500px;
+    width: 400px;
     margin-top: 30px;
 }
 
@@ -44,11 +44,11 @@
 }
 
 .figures{
-    font-size: 70px;
+    font-size: 50px;
     color: #FFF766;
     margin: 20px;
     margin-bottom: 0;
-    font-weight: 900;
+    /* font-weight: 900; */
 }
 
 .figuresDes{
@@ -58,7 +58,7 @@
 .secondTokenomicsDes{
     display: flex;
     margin-top: 70px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -77,7 +77,7 @@
     color: #FFF766;
     margin-bottom: 0;
     margin-top: 30px;
-    font-weight: 900;
+    /* font-weight: 900; */
 }
 
 
@@ -86,7 +86,7 @@
 }
 
 .descriptionTitle{
-    font-weight: bolder;
+    /* font-weight: bolder; */
     color:#FFF766;
 }
 
@@ -128,7 +128,6 @@
     .secondTokenomicsCard{
         text-align: center;
         width: 400px;
-        /* border: 1px solid pink; */
     }
 
     .secondTokenomicsDes{

@@ -40,14 +40,8 @@ function tokenomics() {
             <p className='figuresDes2'>Network</p>
           </div>
         
-          <div className='secondTokenomicsCard' data-aos="zoom-in">
-          <h1 className='figures2'>...............</h1>
-            <p className='figuresDes2'>Contract</p>
-          </div>
-        </div>
 
-        <div className='tokenomicsDescription'>
-        <div className='tokenomicsCard' data-aos="zoom-in">
+          <div className='tokenomicsCard' data-aos="zoom-in">
           <h1 className='figures'>35%</h1>
           <h2 className='descriptionTitle'> TOKEN SALE </h2>
           <p className='figuresDes'> 35% of max supply = 35T</p>
@@ -82,6 +76,44 @@ function tokenomics() {
           <h2 className='descriptionTitle'> Chest </h2>
           <p className='figuresDes'>  10% of max supply = 10T</p>
         </div>
+        </div>
+
+        <div className='tokenomicsDescription'>
+        {/* <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>35%</h1>
+          <h2 className='descriptionTitle'> TOKEN SALE </h2>
+          <p className='figuresDes'> 35% of max supply = 35T</p>
+        </div>
+
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>25%</h1>
+          <h2 className='descriptionTitle'> LIQUIDITY </h2>
+          <p className='figuresDes'>  25% of max supply = 25T</p>
+        </div>
+
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Community </h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
+        </div>
+
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Marketing </h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
+        </div>
+
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Developments</h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
+        </div>
+
+        <div className='tokenomicsCard' data-aos="zoom-in">
+          <h1 className='figures'>10%</h1>
+          <h2 className='descriptionTitle'> Chest </h2>
+          <p className='figuresDes'>  10% of max supply = 10T</p>
+        </div> */}
 
         </div>
 

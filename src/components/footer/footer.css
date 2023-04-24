@@ -5,15 +5,10 @@
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* font-size: 15pt; */
- 
-   
 }
 
 .company{
     width: 300px;
-    /* height: 200px; */
-    
 }
 
 .disclaimer{
@@ -21,11 +16,7 @@
     margin-top: 50px;
 }
 
-/* .disclaimer{
-    width: 500px;
-    height: 200px;
-    background: firebrick;  
-} */
+
 
 .community{
     width: 200px;
